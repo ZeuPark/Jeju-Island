@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "WebFetch(domain:new.kpx.or.kr)",
+      "WebSearch",
+      "Bash(unzip:*)",
+      "mcp__ide__executeCode",
+      "Bash(python -c:*)",
+      "Bash(where:*)",
+      "Bash(where conda:*)",
+      "Bash(python3:*)",
+      "Bash(winget install:*)",
+      "Bash(py -3.12 -m venv venv)",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island && py -3.12 -m venv venv\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island && python -m venv venv\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island && venv\\\\Scripts\\\\pip install -r requirements.txt\")",
+      "Bash(cmd /c \"C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\venv\\\\Scripts\\\\pip install -r C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\requirements.txt\":*)",
+      "Bash(C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\venv\\\\Scripts\\\\pip.exe install:*)",
+      "Bash(cmd /c \"C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\venv\\\\Scripts\\\\pip.exe install pandas matplotlib seaborn jupyter\")",
+      "Bash(powershell -Command \"& ''C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\venv\\\\Scripts\\\\pip.exe'' install pandas matplotlib seaborn jupyter\")",
+      "Bash(powershell -Command:*)",
+      "Bash(python -m venv:*)",
+      "Bash(dir:*)",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\venv\\\\Scripts\")",
+      "Bash(cmd /c \"if exist C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\venv echo EXISTS\")",
+      "Bash(\"C:\\\\Users\\\\Zeu\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" -m venv \"C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\\\\venv\")",
+      "Bash(git -C \"C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\" log --oneline -5)",
+      "Bash(git -C \"C:\\\\Users\\\\Zeu\\\\Documents\\\\GitHub\\\\Jeju-Island\" add .gitignore .claude/ basicprd.md data/ jeju_hvdc_analysis.ipynb requirements.txt)"
+    ]
+  }
+}
