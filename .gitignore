@@ -24,3 +24,10 @@ data/*.xlsx
 # OS
 .DS_Store
 Thumbs.db
+nul
+
+# Claude Code
+.claude/settings.local.json
+
+# Misc
+UsersZeuDocumentsGitHubJeju-Islandvenv/
